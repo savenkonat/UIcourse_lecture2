@@ -1,0 +1,22 @@
+dl {
+ font-size: 17pt;
+ text-align: center;
+}
+dd {
+   font-style: italic;
+   font-size: 13pt; 
+   text-align: left
+}
+dt {
+    font-size: 15pt;
+    color: darkcyan;
+    text-align: left;
+    list-style-type: 
+}
+a{
+ color: darkcyan;
+  text-decoration: none;
+}
+a:hover {
+ color: yellow;
+}

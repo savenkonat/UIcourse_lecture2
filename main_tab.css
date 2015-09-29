@@ -1,0 +1,47 @@
+body {
+background-color: #f9f2e3;
+}
+table {
+    border-collapse: collapse;
+    width:1250;
+    height: 900;
+  /*font: 12pt comic;*/
+}
+td {
+    border: 2px solid black;
+    height: auto;
+    width: 3%;
+    font: 11pt georgia;
+    padding: 3px;
+}
+th {
+    border: 2px solid black;
+    height: auto;
+    width: 3%;
+}
+.red {
+    background-color: red;
+    text-align: left;
+}
+.yellow {
+    background-color: yellow;
+    text-align: left;
+}
+.blue {
+    background-color: #7292ed;
+    text-align: right;
+}
+.form {
+    text-align: center;
+    color: navy;
+    font: 14pt bold;
+}
+h1, h3 {
+    text-align: center;
+}
+.gr {
+    background: -webkit-linear-gradient(45deg, #8bae7e 0%, #37b30b 50%, #c5f2b5 100%);
+}
+.gr1 {
+    background: -webkit-linear-gradient(45deg, #bfa5c0 0%, #b34fb7 50%, #2e202f 100%);
+}
