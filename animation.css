@@ -1,0 +1,33 @@
+.sq {
+ width: 50px;
+ height: 50px; 
+ margin: 50px 50px;
+ animation-name:anim;
+ animation-duration: 10s;
+ animation-iteration-count:infinite;
+ animation-fill-mode:forwards;
+}
+.blue {
+ background-color: blue; 
+ animation-direction: normal;
+ transition-timing-function: linear;
+}
+.red {
+ background-color: red;
+ animation-direction: normal;
+ transition-timing-function: ease;
+}
+.yellow {
+ background-color: yellow;
+ animation-direction: normal;
+ transition-timing-function: ease-out;
+}
+@-webkit-keyframes anim{
+    from {
+        -webkit-transform:translateX(50px);
+    }
+    to {
+        -webkit-transform:translateX(800px);
+        background-color: black;
+    }
+}
